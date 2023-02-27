@@ -1,0 +1,36 @@
+.layout {
+  overflow: hidden;
+  height: 100%;
+}
+
+.layout__content {
+  overflow: hidden;
+  height: 100%;
+  padding: 0 16px;
+}
+
+.layout__content-inner {
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .layout__content {
+    padding: 0 30px;
+  }
+
+  .layout__content-inner {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .layout__content {
+    padding: 0 50px;
+  }
+
+  .layout__content-inner {
+    padding-bottom: 50px;
+  }
+}
